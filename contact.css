@@ -1,0 +1,171 @@
+*
+{
+	margin: 0px;
+	padding:0px;
+}
+
+.navbar
+{
+	background-color: white !important;
+		box-shadow: 1px 2px 3px orange; 
+
+}
+.nav-link
+{
+	color: orange !important;
+	font-weight: bold !important;
+	font-family:  Georgia !important;
+	font-size: 15px;
+}
+.nav-link:hover
+{
+	box-shadow: 0px 0px 8px orange;
+
+
+}
+.navbar-brand
+{
+	color: orange !important;
+}
+.mainCard
+{
+	margin-top: 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+@media only screen and (max-width: 600px) 
+	{.card1, .card2, .card3
+		{
+			width: 100%;
+		}
+}
+.heading
+{
+	text-align: center;
+	margin: 20px
+
+}
+.heading > h2
+{
+	color:orange;
+	text-shadow: 2px 1px 3px orange;
+	font-family: serif;
+}
+.newArrivals
+{
+	margin-top: 40px;
+}
+.card
+{
+	width: 250px;
+	height: 1000px;
+	height: auto !important;
+	margin-bottom: 20px;
+	box-shadow: 1px 1px 4px orange;
+
+}
+.card p
+{
+	text-align: center !important;
+}
+.card h5
+{
+	text-align: center !important;
+}
+.btn-primary
+{
+	width: 100%;
+}
+.card-img-top
+{
+	height: 200px;
+}
+.fa-home
+{
+	font-size: 30px !important;
+	margin-top: -5px;
+}
+.dropdown-menu
+{
+	margin-top: 15px !important;
+}
+.dropdown-item:hover
+{
+	background-color: orange !important;
+}
+.fa-facebook-square,.fa-twitter-square,.fa-google-plus-official,.fa-linkedin-square,.fa-instagram
+{
+	font-size: 30px !important;
+	color: white;
+	margin: 10px
+}
+.fa-facebook-square,.fa-twitter-square,.fa-google-plus-official,.fa-linkedin-square,.fa-instagram: hover
+{
+	color: red;	
+}
+h6
+{
+	color: #f57f17 yellow darken-4;
+	font-size:20px !important;
+	font-family: serif;
+}
+p
+{
+	font-family: serif;
+}
+.card-body
+{
+	background-color: orange;
+	color: white;
+	font-weight:bolder;
+}
+#form_container
+{
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top:5%;
+	background:orange;	
+	color:#fff;
+}
+body
+{
+	background-color: white;
+	background-size: cover;
+	background-repeat:no-repeat;
+}
+.upload-btn-wrapper 
+{
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.upload-btn-wrapper input[type=file] 
+{
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+#myBtn:hover {
+  background-color: black;
+}
+::-webkit-scrollbar
+{
+width:10px;
+}
+::-webkit-scrollbar-track
+{
+	border: 7px solid black;
+	box-shadow: inset 0 0 2.5px 2px rgba(0,0,)
+}
+::-webkit-scrollbar-thumb
+{
+	background: linear-gradient(45deg,yellow,orange);
+	border-radius:3px;
+
+}
